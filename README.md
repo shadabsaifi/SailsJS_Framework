@@ -1,4 +1,47 @@
-# sails-js
+# SailsJS Framework
+
+## https://www.quora.com/How-can-I-use-auto-generate-REST-API-with-SailsJS
+## https://www.codementor.io/codeforgeek/how-to-setup-sailsjs-tutorial-beginners-du107nl5i
+
+# You can then install stable version of Sails using following command:
+    $ npm install -g sails or npm i sails -g 
+
+# Now lets create a Sails application
+	$ cd Desktop
+	$ sails new projectName
+# Install all the required packages needed to run your new project.
+
+	$ npm install
+
+# Start sails server with following command:
+
+    $ sails lift
+	
+
+
+# Now, lets create simple REST API for User model with attributes name and email.
+
+	$ sails generate api users name email
+
+# Choose 2 (i.e the alter option) and press enter. Now the REST API is ready to use! So easy!
+
+	Following are the routes which we can use. It deals with JSON data.
+    GET /users
+    GET /users/:id
+    POST /users
+    PUT /users/:id
+    DELETE /users/:id
+	
+# Database Connection with mongodb
+
+ ## To connect mongoDB 
+
+	$ npm install sails-mongo
+
+
+
+
+
 
 a [Sails v1](https://sailsjs.com) application
 
